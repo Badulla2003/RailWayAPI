@@ -24,7 +24,7 @@ public class ApplicationApiApplication {
 	
 	@GetMapping("/")
 	public String hi() {
-		return "hello world";
+		return "hello world!";
 	}
 	
 	@GetMapping("/students")
